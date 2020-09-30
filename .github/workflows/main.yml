@@ -6,7 +6,7 @@ jobs:
     name: Run WDIO tests
     steps:
     - name: Start selenoid
-      uses: Xotabu4/selenoid-github-action@v1
+      uses: ajinx/selenoid@v2
     - uses: actions/checkout@v1
     - run: npm ci  
     - name: Run tests
